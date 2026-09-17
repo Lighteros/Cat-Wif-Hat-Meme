@@ -2,7 +2,7 @@ const SITE = {
   name: "cat wif hat",
   symbol: "catwif",
   twitter: "https://x.com/catwifhat_meme",
-  contract: "",
+  contract: "6vn3Jpg4f2oY21ZmKYnYFfvZh1mTKuyhQBNTbfw8pump",
   pumpswap: "https://swap.pump.fun",
   dexscreenerBase: "https://dexscreener.com/solana",
 };
