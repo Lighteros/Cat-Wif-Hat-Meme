@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>cat wif hat | $catwif</title>
+  <meta name="description" content="cat wif hat ($catwif) — literally just a cat wif hat. A Solana memecoin." />
+  <meta name="theme-color" content="#F6EEE4" />
+  <link rel="icon" href="assets/logo.png" type="image/png" />
+  <meta property="og:title" content="cat wif hat | $catwif" />
+  <meta property="og:description" content="literally just a cat wif hat" />
+  <meta property="og:image" content="assets/logo.png" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="yarn-field" aria-hidden="true"></canvas>
+  <div class="wool-veil" aria-hidden="true"></div>
+  <div class="float-yarn yarn-a" aria-hidden="true"></div>
+  <div class="float-yarn yarn-b" aria-hidden="true"></div>
+  <div class="float-yarn yarn-c" aria-hidden="true"></div>
+
+  <a class="skip" href="#hero">Skip to the hat</a>
+
+  <header class="mast">
+    <div class="mast-rib" aria-hidden="true"></div>
+    <div class="mast-inner">
+      <a class="brand" href="#hero">
+        <span class="brand-mark">
+          <img src="assets/logo.png" alt="" />
+        </span>
+        <span class="brand-copy">
+          <strong>cat wif hat</strong>
+          <small>$catwif</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="site-nav" aria-label="Primary">
+        <a href="#hero">home</a>
+        <a href="#about">about</a>
+        <a href="#howtobuy">how to buy</a>
+        <a href="#chart">chart</a>
+        <a href="#joinus">join us</a>
+      </nav>
+
+      <div class="mast-actions">
+        <a class="pill pill-ghost" href="https://x.com/catwifhat_meme" target="_blank" rel="noopener noreferrer">
+          <span class="mark mark-x"></span>
+          <span>x</span>
+        </a>
+        <a class="pill pill-hat" data-pumpswap href="https://swap.pump.fun" target="_blank" rel="noopener noreferrer">buy $catwif</a>
+        <button class="yarn-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-stage">
+        <div class="loom" data-reveal>
+            <div class="loom-halo"></div>
+          <img class="loom-face" src="assets/logo.png" alt="Ginger cat wearing a pink knitted beanie" />
+          <div class="loom-stitch"></div>
+        </div>
+
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow">solana memecoin</p>
+          <h1>
+            <span class="word">cat</span>
+            <span class="word word-soft">wif</span>
+            <span class="word">hat</span>
+          </h1>
+          <p class="ticker">$catwif</p>
+          <p class="lede">literally just a cat wif hat</p>
+          <p class="sub">
+            One ginger tabby. One pink knit beanie. No extra plot.
+            The whole thesis sits on the head.
+          </p>
+
+          <div class="cta-row">
+            <a class="pill pill-hat" data-pumpswap href="https://swap.pump.fun" target="_blank" rel="noopener noreferrer">
+              <span class="mark mark-pump"></span>
+              buy on pumpswap
+            </a>
+            <a class="pill pill-cream" data-dex href="https://dexscreener.com/solana" target="_blank" rel="noopener noreferrer">
+              <span class="mark mark-dex"></span>
+              dexscreener
+            </a>
+            <a class="pill pill-ghost" href="https://x.com/catwifhat_meme" target="_blank" rel="noopener noreferrer">
+              <span class="mark mark-x"></span>
+              follow on x
+            </a>
+          </div>
+
+          <div class="ca-tray">
+            <span class="ca-label">contract</span>
+            <code id="ca-value">TBA</code>
+            <button type="button" id="copy-ca" class="copy-btn">copy</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">the pattern</p>
+        <h2>what you see is the whole coin</h2>
+        <p class="section-lead">
+          If you came looking for a whitepaper, the whitepaper is a cat in a hat.
+          Fiber, brim, chain. That is the gauge.
+        </p>
+      </div>
+
+      <div class="felt-grid">
+        <article class="felt" data-reveal>
+          <div class="felt-num">01</div>
+          <h3>the cat</h3>
+          <p>
+            An orange tabby with a still, serious stare. No cape. No lore dump.
+            Just whiskers, a pink nose, and the patience of a finished sweater.
+          </p>
+        </article>
+        <article class="felt" data-reveal>
+          <div class="felt-num">02</div>
+          <h3>the hat</h3>
+          <p>
+            A hand-knit pink beanie, brim and all. Soft yarn, tight stitches,
+            slightly too big, worn like it was always meant to be there.
+          </p>
+        </article>
+        <article class="felt" data-reveal>
+          <div class="felt-num">03</div>
+          <h3>the chain</h3>
+          <p>
+            Lives on Solana so the yarn can move without snagging.
+            Fast blocks, soft branding, one ticker: $catwif.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="howtobuy" id="howtobuy">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">knitting instructions</p>
+        <h2>how to buy $catwif</h2>
+        <p class="section-lead">
+          Read it like a pattern card. Four rows. Cast on a wallet, wind some SOL,
+          knit the swap, then watch the chart.
+        </p>
+      </div>
+
+      <ol class="pattern">
+        <li class="row-card" data-reveal>
+          <div class="row-index">row 1</div>
+          <div class="row-icon">
+            <img src="assets/icons/phantom.svg" alt="" class="icon-theme icon-phantom" />
+          </div>
+          <div class="row-body">
+            <h3>cast on</h3>
+            <p>Open a Solana wallet. Phantom is the needle. New stitch, same chain.</p>
+            <a href="https://phantom.app" target="_blank" rel="noopener noreferrer">get phantom</a>
+          </div>
+        </li>
+        <li class="row-card" data-reveal>
+          <div class="row-index">row 2</div>
+          <div class="row-icon">
+            <img src="assets/icons/solana.svg" alt="" class="icon-theme icon-solana" />
+          </div>
+          <div class="row-body">
+            <h3>wind the yarn</h3>
+            <p>Fund the wallet with SOL. This is the fiber that feeds every later stitch.</p>
+          </div>
+        </li>
+        <li class="row-card" data-reveal>
+          <div class="row-index">row 3</div>
+          <div class="row-icon">
+            <img src="assets/icons/pumpswap.svg" alt="" class="icon-theme icon-pump" />
+          </div>
+          <div class="row-body">
+            <h3>knit one</h3>
+            <p>Swap SOL for $catwif on PumpSwap. One motion. Brim goes on.</p>
+            <a data-pumpswap href="https://swap.pump.fun" target="_blank" rel="noopener noreferrer">open pumpswap</a>
+          </div>
+        </li>
+        <li class="row-card" data-reveal>
+          <div class="row-index">row 4</div>
+          <div class="row-icon">
+            <img src="assets/icons/dexscreener.svg" alt="" class="icon-theme icon-dex" />
+          </div>
+          <div class="row-body">
+            <h3>read the gauge</h3>
+            <p>Track the pair on Dexscreener. Solana chart, nothing else in the frame.</p>
+            <a data-dex href="https://dexscreener.com/solana" target="_blank" rel="noopener noreferrer">open dexscreener</a>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="chart" id="chart">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">live gauge</p>
+        <h2>chart</h2>
+        <p class="section-lead">
+          Dexscreener only. Solana pair, stitched into a wool frame.
+        </p>
+      </div>
+
+      <div class="chart-frame" data-reveal>
+        <div class="chart-bar">
+          <span class="mark mark-dex"></span>
+          <span>dexscreener / solana</span>
+          <a data-dex href="https://dexscreener.com/solana" target="_blank" rel="noopener noreferrer">open pair</a>
+        </div>
+        <div class="chart-pane">
+          <iframe
+            id="dex-embed"
+            title="Dexscreener Solana chart for cat wif hat"
+            src="https://dexscreener.com/solana?embed=1&theme=light&trades=0&info=0"
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="joinus" id="joinus">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">the knitting circle</p>
+        <h2>join us</h2>
+        <p class="section-lead">
+          Same cat. Same hat. Come sit with the yarn.
+        </p>
+      </div>
+
+      <figure class="banner-frame" data-reveal>
+        <img src="assets/banner.png" alt="catwifhat knitted yarn banner with the ginger cat in a pink beanie" />
+      </figure>
+
+      <div class="join-row" data-reveal>
+        <a class="join-card" href="https://x.com/catwifhat_meme" target="_blank" rel="noopener noreferrer">
+          <span class="mark mark-x"></span>
+          <strong>x</strong>
+          <span>@catwifhat_meme</span>
+        </a>
+        <a class="join-card" data-pumpswap href="https://swap.pump.fun" target="_blank" rel="noopener noreferrer">
+          <span class="mark mark-pump"></span>
+          <strong>pumpswap</strong>
+          <span>buy $catwif</span>
+        </a>
+        <a class="join-card" data-dex href="https://dexscreener.com/solana" target="_blank" rel="noopener noreferrer">
+          <span class="mark mark-dex"></span>
+          <strong>dexscreener</strong>
+          <span>solana chart</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="mast-rib" aria-hidden="true"></div>
+    <div class="foot-inner">
+      <div class="foot-brand">
+        <img src="assets/logo.png" alt="" />
+        <div>
+          <strong>cat wif hat</strong>
+          <p>literally just a cat wif hat</p>
+        </div>
+      </div>
+      <div class="foot-links">
+        <a href="#about">about</a>
+        <a href="#howtobuy">how to buy</a>
+        <a href="#chart">chart</a>
+        <a href="#joinus">join us</a>
+      </div>
+      <div class="foot-social">
+        <a href="https://x.com/catwifhat_meme" target="_blank" rel="noopener noreferrer" aria-label="X">
+          <span class="mark mark-x"></span>
+        </a>
+        <a data-pumpswap href="https://swap.pump.fun" target="_blank" rel="noopener noreferrer" aria-label="PumpSwap">
+          <span class="mark mark-pump"></span>
+        </a>
+        <a data-dex href="https://dexscreener.com/solana" target="_blank" rel="noopener noreferrer" aria-label="Dexscreener">
+          <span class="mark mark-dex"></span>
+        </a>
+      </div>
+    </div>
+    <p class="legal">$catwif is a Solana memecoin. Nothing on this page is financial advice.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
